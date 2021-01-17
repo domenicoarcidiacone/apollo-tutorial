@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+/*
+import React from 'react';
+import {useQuery, gql} from '@apollo/client';
 
+
+const EXCHANGE_RATES = gql`
+  query GetExchangeRates {
+    rates(currency: "USD") {
+      currency
+      rate
+    }
+  }
+`;
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <ApolloProvider client={client}>
+            <div>
+                <h2>My first Apollo app 🚀</h2>
+            </div>
+        </ApolloProvider>
+    );
 }
 
 export default App;
+*/
